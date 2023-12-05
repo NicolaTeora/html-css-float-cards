@@ -10,7 +10,14 @@
 .container{
     width: 1080px;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .debug{
@@ -20,7 +27,22 @@
 
 .debug > *{
     border: 1px dashed black;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 /* MAIN */
+
+.folder{
+    margin: 0 -1rem;
+}
+
+.card{
+    width: calc(100% / 3);
+    float:left;
+}
+
+.card > img{
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+}
