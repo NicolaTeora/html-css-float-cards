@@ -24,6 +24,8 @@ span{
     display: table;
 }
 
+/* DEBUG */
+
 .debug{
     padding: 1rem;
     background-color: darkgray;
@@ -31,10 +33,20 @@ span{
 
 .debug > *{
     border: 1px dashed black;
-    /* padding: 1rem; */
+    padding: 1rem;
 }
 
 /* MAIN */
+
+section{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container h1{
+    font-size: xx-large;
+    color: blueviolet;
+    margin: 3rem 0;
+}
 
 /* specifiche del folder */
 .folder{
