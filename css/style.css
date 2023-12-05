@@ -5,6 +5,10 @@
     box-sizing: border-box;    
 }
 
+span{
+    display: block;
+}
+
 /* UTILITY */
 
 .container{
@@ -32,18 +36,21 @@
 
 /* MAIN */
 
+/* specifiche del folder */
 .folder{
     margin: 0 -1rem;
+    margin-top: 50px;
 }
 
+/* specifiche delle card e contenuti */
 .card{
     width: calc(100% / 3 - 20px);
     margin: 10px;
     float: left;
     text-align: left;
-    background-color: rgb(7, 7, 160);
+    background-color: rgb(3, 3, 14);
     color: white;
-
+    box-shadow: 5px 5px 5px darkgray;
 }
 
 .card > img{
@@ -52,7 +59,15 @@
     margin-right: 10px;
 }
 
-.card > a{
+.indentity > a{
     text-decoration: none;
     color:aqua ;
+}
+
+.indentity{
+    padding: 20px;
+}
+
+.identity > a{
+    display: block;
 }
