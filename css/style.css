@@ -1,0 +1,26 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+/* UTILITY */
+
+.container{
+    width: 1080px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.debug{
+    padding: 1rem;
+    background-color: darkgray;
+}
+
+.debug > *{
+    border: 1px dashed black;
+    padding: 1rem;
+}
+
+/* MAIN */
